@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/Maps/TestMap.umap",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/Blueprint/Player/BP_C4PlayerController.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/Blueprint/Game/BP_C4GameModeBase.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/UI/WBP_ChatInput.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/Blueprint/Game/BP_C4GameStateBase.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/Blueprint/Game/BP_C4PlayerState.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/UI/WBP_Notification.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/WBP_SecretInput.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/UI/WBP_MyNumbers.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/WBP_GuessNumbers.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/UI/WBP_GuessEntry.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/UI/WBP_GuessNumbers.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/UI/WBP_SecretInput.uasset",
+				"D:/Dev/Unreal/Chapter4/C4Project/Content/C4Project/UI/WBP_MainHUD.uasset"
+			]
+		}
+	]
+}

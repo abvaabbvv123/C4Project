@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "C4Project",
+			"Path": "..\\Source\\C4Project.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "C4ProjectEditor",
+			"Path": "..\\Source\\C4ProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

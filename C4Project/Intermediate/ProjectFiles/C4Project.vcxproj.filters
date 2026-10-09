@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\C4Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\C4Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\C4ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <None Include="..\..\UpgradeLog2.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\C4Project">
+      <UniqueIdentifier>{76F48E77-7D59-368E-BD52-A5AA7D848E99}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\C4Project\C4Project.Build.cs">
+      <Filter>Source\C4Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\C4Project\C4Project.cpp">
+      <Filter>Source\C4Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\C4Project.h">
+      <Filter>Source\C4Project</Filter>
+    </ClCompile>
+    <Filter Include="Source\C4Project\Private">
+      <UniqueIdentifier>{0BD09930-442A-3891-A6AB-7E68196AFD7F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\C4Project\Private\C3Type.cpp">
+      <Filter>Source\C4Project\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\C4Type.cpp">
+      <Filter>Source\C4Project\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\C4UISetting.cpp">
+      <Filter>Source\C4Project\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\C4Project\Private\GameSystem">
+      <UniqueIdentifier>{9CD5D395-621D-30B5-9BCD-A549D3430D91}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\C4Project\Private\GameSystem\C4GameModeBase.cpp">
+      <Filter>Source\C4Project\Private\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\GameSystem\C4GameStateBase.cpp">
+      <Filter>Source\C4Project\Private\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\GameSystem\C4PlayerController.cpp">
+      <Filter>Source\C4Project\Private\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\GameSystem\C4PlayerState.cpp">
+      <Filter>Source\C4Project\Private\GameSystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\C4Project\Private\UI">
+      <UniqueIdentifier>{FDB0A933-F5BC-37D2-9A08-F1A9999D1326}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\C4Project\Private\UI\C4ChatInput.cpp">
+      <Filter>Source\C4Project\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\UI\C4GuessedNumbers.cpp">
+      <Filter>Source\C4Project\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\UI\C4GuessingEntry.cpp">
+      <Filter>Source\C4Project\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\UI\C4NotificationWidget.cpp">
+      <Filter>Source\C4Project\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\UI\C4SecretInput.cpp">
+      <Filter>Source\C4Project\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Private\UI\C4UserWidgetBase.cpp">
+      <Filter>Source\C4Project\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\C4Project\Public">
+      <UniqueIdentifier>{D2801134-5B95-3A47-86F0-8E4435712B9A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\C4Project\Public\C3Type.h">
+      <Filter>Source\C4Project\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\C4Type.h">
+      <Filter>Source\C4Project\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\C4UISetting.h">
+      <Filter>Source\C4Project\Public</Filter>
+    </ClCompile>
+    <Filter Include="Source\C4Project\Public\GameSystem">
+      <UniqueIdentifier>{3A86A45A-3B25-3252-ABFC-C45183155871}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\C4Project\Public\GameSystem\C4GameModeBase.h">
+      <Filter>Source\C4Project\Public\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\GameSystem\C4GameStateBase.h">
+      <Filter>Source\C4Project\Public\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\GameSystem\C4PlayerController.h">
+      <Filter>Source\C4Project\Public\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\GameSystem\C4PlayerState.h">
+      <Filter>Source\C4Project\Public\GameSystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\C4Project\Public\UI">
+      <UniqueIdentifier>{CC1ED03C-5A64-3673-9EA1-C16D9E261F02}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\C4Project\Public\UI\C4ChatInput.h">
+      <Filter>Source\C4Project\Public\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\UI\C4GuessedNumbers.h">
+      <Filter>Source\C4Project\Public\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\UI\C4GuessingEntry.h">
+      <Filter>Source\C4Project\Public\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\UI\C4NotificationWidget.h">
+      <Filter>Source\C4Project\Public\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\UI\C4SecretInput.h">
+      <Filter>Source\C4Project\Public\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\C4Project\Public\UI\C4UserWidgetBase.h">
+      <Filter>Source\C4Project\Public\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
