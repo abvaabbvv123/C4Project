@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\permoduleinline.gen.cpp",
+        "Source": "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\x64\\c4projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\x64\\c4projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\definitions.c4project.h",
+            "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\definitions.c4project.h",
             "e:\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
         ],
         "ImportedModules": [],

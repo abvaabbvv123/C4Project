@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define C4PROJECT_C4GuessingEntry_generated_h
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUC4GuessingEntry(); \
 	friend struct Z_Construct_UClass_UC4GuessingEntry_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UC4GuessingEntry)
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_20_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UC4GuessingEntry(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~UC4GuessingEntry();
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_13_PROLOG
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_16_GENERATED_BODY \
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_17_PROLOG
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_16_INCLASS_NO_PURE_DECLS \
-	FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_16_ENHANCED_CONSTRUCTORS \
+	FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_20_INCLASS_NO_PURE_DECLS \
+	FID_C4Project_Source_C4Project_Public_UI_C4GuessingEntry_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

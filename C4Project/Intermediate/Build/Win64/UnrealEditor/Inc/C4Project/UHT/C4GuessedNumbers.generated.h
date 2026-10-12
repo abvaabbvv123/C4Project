@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define C4PROJECT_C4GuessedNumbers_generated_h
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execHandleGuessLogChanged);
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUC4GuessedNumbers(); \
 	friend struct Z_Construct_UClass_UC4GuessedNumbers_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(UC4GuessedNumbers)
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_21_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UC4GuessedNumbers(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -41,13 +41,13 @@ public: \
 	NO_API virtual ~UC4GuessedNumbers();
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_12_PROLOG
-#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_15_GENERATED_BODY \
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_18_PROLOG
+#define FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_15_INCLASS_NO_PURE_DECLS \
-	FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_15_ENHANCED_CONSTRUCTORS \
+	FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_21_INCLASS_NO_PURE_DECLS \
+	FID_C4Project_Source_C4Project_Public_UI_C4GuessedNumbers_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Dev\\Unreal\\Chapter4\\C4Project\\Source\\C4Project\\C4Project.Build.cs",
-		"D:\\Dev\\Unreal\\Chapter4\\C4Project\\Source\\C4Project.Target.cs",
-		"D:\\Dev\\Unreal\\Chapter4\\C4Project\\Source\\C4ProjectEditor.Target.cs"
+		"D:\\Dev\\Unreal\\C4Project\\C4Project\\Source\\C4Project\\C4Project.Build.cs",
+		"D:\\Dev\\Unreal\\C4Project\\C4Project\\Source\\C4Project.Target.cs",
+		"D:\\Dev\\Unreal\\C4Project\\C4Project\\Source\\C4ProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }

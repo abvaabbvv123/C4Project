@@ -29,7 +29,13 @@ struct Z_Construct_UFunction_UC4NotificationWidget_HandleNotificationChanged_Sta
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xec\x83\x88 \xec\x95\x8c\xeb\xa6\xbc \xec\x88\x98\xec\x8b\xa0 \xe2\x86\x92 \xeb\xac\xb8\xea\xb5\xac \xeb\xb3\x80\xea\xb2\xbd + \xec\x95\xa0\xeb\x8b\x88\xeb\xa9\x94\xec\x9d\xb4\xec\x85\x98 + \xec\x95\x8c\xeb\xa6\xbc\xec\x9d\x8c\n" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/C4NotificationWidget.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xec\x83\x88 \xec\x95\x8c\xeb\xa6\xbc \xec\x88\x98\xec\x8b\xa0 \xe2\x86\x92 \xeb\xac\xb8\xea\xb5\xac \xeb\xb3\x80\xea\xb2\xbd + \xec\x95\xa0\xeb\x8b\x88\xeb\xa9\x94\xec\x9d\xb4\xec\x85\x98 + \xec\x95\x8c\xeb\xa6\xbc\xec\x9d\x8c" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InText_MetaData[] = {
 		{ "NativeConst", "" },
@@ -84,10 +90,13 @@ struct Z_Construct_UClass_UC4NotificationWidget_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n * \xec\x83\x81\xeb\x8b\xa8 \xec\x95\x8c\xeb\xa6\xbc \xec\x9c\x84\xec\xa0\xaf (WBP_Notification\xec\x9d\x98 \xeb\xb6\x80\xeb\xaa\xa8)\n * - \xec\x95\x8c\xeb\xa6\xbc \xeb\xac\xb8\xea\xb5\xac: PC\xec\x9d\x98 NotificationText(\xec\x84\x9c\xeb\xb2\x84\xea\xb0\x80 \xeb\xb3\xb4\xeb\x82\xb8 \xec\x95\x8c\xeb\xa6\xbc ID\xeb\xa5\xbc \xed\x81\xb4\xeb\x9d\xbc\xec\x97\x90\xec\x84\x9c \xed\x85\x8d\xec\x8a\xa4\xed\x8a\xb8\xeb\xa1\x9c \xeb\xb3\x80\xed\x99\x98\xed\x95\x9c \xea\xb0\x92)\xeb\xa5\xbc \xed\x91\x9c\xec\x8b\x9c\n * - \xed\x84\xb4 \xed\x91\x9c\xec\x8b\x9c / LAST CHANCE \xeb\xb0\xb0\xeb\x84\x88: GameState \xea\xb0\x92\xec\x9d\x84 \xeb\xb3\xb4\xea\xb3\xa0 \xed\x91\x9c\xec\x8b\x9c (WatchesGameFlow \xec\x82\xac\xec\x9a\xa9)\n * - \xec\x95\x8c\xeb\xa6\xbc\xec\x9d\xb4 \xeb\xb0\x94\xeb\x80\x94 \xeb\x95\x8c \xec\x95\xa0\xeb\x8b\x88\xeb\xa9\x94\xec\x9d\xb4\xec\x85\x98 + \xec\x95\x8c\xeb\xa6\xbc\xec\x9d\x8c \xec\x9e\xac\xec\x83\x9d\n */" },
 #endif
 		{ "IncludePath", "UI/C4NotificationWidget.h" },
 		{ "ModuleRelativePath", "Public/UI/C4NotificationWidget.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xec\x83\x81\xeb\x8b\xa8 \xec\x95\x8c\xeb\xa6\xbc \xec\x9c\x84\xec\xa0\xaf (WBP_Notification\xec\x9d\x98 \xeb\xb6\x80\xeb\xaa\xa8)\n- \xec\x95\x8c\xeb\xa6\xbc \xeb\xac\xb8\xea\xb5\xac: PC\xec\x9d\x98 NotificationText(\xec\x84\x9c\xeb\xb2\x84\xea\xb0\x80 \xeb\xb3\xb4\xeb\x82\xb8 \xec\x95\x8c\xeb\xa6\xbc ID\xeb\xa5\xbc \xed\x81\xb4\xeb\x9d\xbc\xec\x97\x90\xec\x84\x9c \xed\x85\x8d\xec\x8a\xa4\xed\x8a\xb8\xeb\xa1\x9c \xeb\xb3\x80\xed\x99\x98\xed\x95\x9c \xea\xb0\x92)\xeb\xa5\xbc \xed\x91\x9c\xec\x8b\x9c\n- \xed\x84\xb4 \xed\x91\x9c\xec\x8b\x9c / LAST CHANCE \xeb\xb0\xb0\xeb\x84\x88: GameState \xea\xb0\x92\xec\x9d\x84 \xeb\xb3\xb4\xea\xb3\xa0 \xed\x91\x9c\xec\x8b\x9c (WatchesGameFlow \xec\x82\xac\xec\x9a\xa9)\n- \xec\x95\x8c\xeb\xa6\xbc\xec\x9d\xb4 \xeb\xb0\x94\xeb\x80\x94 \xeb\x95\x8c \xec\x95\xa0\xeb\x8b\x88\xeb\xa9\x94\xec\x9d\xb4\xec\x85\x98 + \xec\x95\x8c\xeb\xa6\xbc\xec\x9d\x8c \xec\x9e\xac\xec\x83\x9d" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TextBlock_Notification_MetaData[] = {
 		{ "BindWidget", "" },
@@ -96,21 +105,45 @@ struct Z_Construct_UClass_UC4NotificationWidget_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TextBlock_TurnStatus_MetaData[] = {
 		{ "BindWidgetOptional", "" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xed\x95\x84\xec\x88\x98: \xec\x95\x8c\xeb\xa6\xbc \xeb\xb3\xb8\xeb\xac\xb8\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/UI/C4NotificationWidget.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xed\x95\x84\xec\x88\x98: \xec\x95\x8c\xeb\xa6\xbc \xeb\xb3\xb8\xeb\xac\xb8" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Widget_LastChance_MetaData[] = {
 		{ "BindWidgetOptional", "" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xec\x84\xa0\xed\x83\x9d: YOUR TURN / OPPONENT'S TURN\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/UI/C4NotificationWidget.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xec\x84\xa0\xed\x83\x9d: YOUR TURN / OPPONENT'S TURN" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Anim_Notify_MetaData[] = {
 		{ "BindWidgetAnimOptional", "" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xec\x84\xa0\xed\x83\x9d: \xeb\x9d\xbc\xec\x8a\xa4\xed\x8a\xb8\xec\xb0\xac\xec\x8a\xa4 \xeb\xb0\xb0\xeb\x84\x88 (Border \xeb\x93\xb1 \xec\x95\x84\xeb\xac\xb4 \xec\x9c\x84\xec\xa0\xaf)\n" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/C4NotificationWidget.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xec\x84\xa0\xed\x83\x9d: \xeb\x9d\xbc\xec\x8a\xa4\xed\x8a\xb8\xec\xb0\xac\xec\x8a\xa4 \xeb\xb0\xb0\xeb\x84\x88 (Border \xeb\x93\xb1 \xec\x95\x84\xeb\xac\xb4 \xec\x9c\x84\xec\xa0\xaf)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NotificationSound_MetaData[] = {
 		{ "Category", "Sound" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xec\x84\xa0\xed\x83\x9d: WBP \xec\x95\xa0\xeb\x8b\x88\xeb\xa9\x94\xec\x9d\xb4\xec\x85\x98 \xec\x9d\xb4\xeb\xa6\x84\xec\x9d\x84 \xec\xa0\x95\xed\x99\x95\xed\x9e\x88 Anim_Notify\xeb\xa1\x9c\n" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/C4NotificationWidget.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xec\x84\xa0\xed\x83\x9d: WBP \xec\x95\xa0\xeb\x8b\x88\xeb\xa9\x94\xec\x9d\xb4\xec\x85\x98 \xec\x9d\xb4\xeb\xa6\x84\xec\x9d\x84 \xec\xa0\x95\xed\x99\x95\xed\x9e\x88 Anim_Notify\xeb\xa1\x9c" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_TextBlock_Notification;
@@ -121,7 +154,7 @@ struct Z_Construct_UClass_UC4NotificationWidget_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UC4NotificationWidget_HandleNotificationChanged, "HandleNotificationChanged" }, // 1925063384
+		{ &Z_Construct_UFunction_UC4NotificationWidget_HandleNotificationChanged, "HandleNotificationChanged" }, // 1862638979
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -183,10 +216,10 @@ UC4NotificationWidget::~UC4NotificationWidget() {}
 struct Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4NotificationWidget_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UC4NotificationWidget, UC4NotificationWidget::StaticClass, TEXT("UC4NotificationWidget"), &Z_Registration_Info_UClass_UC4NotificationWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UC4NotificationWidget), 609050147U) },
+		{ Z_Construct_UClass_UC4NotificationWidget, UC4NotificationWidget::StaticClass, TEXT("UC4NotificationWidget"), &Z_Registration_Info_UClass_UC4NotificationWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UC4NotificationWidget), 3961636597U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4NotificationWidget_h_628067733(TEXT("/Script/C4Project"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4NotificationWidget_h_1560748294(TEXT("/Script/C4Project"),
 	Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4NotificationWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4NotificationWidget_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

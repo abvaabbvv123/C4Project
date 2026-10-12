@@ -1,9 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "UI/C4GuessingEntry.h"
 #include "Components/TextBlock.h"
 #include "GameFramework/PlayerState.h"
+
 
 void UC4GuessingEntry::SetRecord(int32 InIndex, const FC4GuessRecord& InRecord, bool bInIsMine)
 {
@@ -26,4 +27,3 @@ void UC4GuessingEntry::SetRecord(int32 InIndex, const FC4GuessRecord& InRecord, 
 	TextBlock_Result->SetText(FText::FromString(C4Type::FormatStrikeBall(InRecord)));
 	TextBlock_Result->SetColorAndOpacity(InRecord.Strike == 4 ? HitColor : RowColor);
 }
- 

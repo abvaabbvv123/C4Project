@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\dev\\unreal\\chapter4\\c4project\\source\\c4project\\private\\c4type.cpp",
+        "Source": "d:\\dev\\unreal\\c4project\\c4project\\source\\c4project\\private\\c4type.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\x64\\c4projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\x64\\c4projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\definitions.c4project.h",
-            "d:\\dev\\unreal\\chapter4\\c4project\\source\\c4project\\public\\c4type.h",
-            "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4type.generated.h"
+            "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\definitions.c4project.h",
+            "d:\\dev\\unreal\\c4project\\c4project\\source\\c4project\\public\\c4type.h",
+            "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4type.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

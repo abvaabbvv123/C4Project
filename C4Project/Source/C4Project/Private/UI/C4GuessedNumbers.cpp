@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "UI/C4GuessedNumbers.h"
@@ -11,7 +11,6 @@ void UC4GuessedNumbers::BindGameState(AC4GameStateBase* InGS)
 {
 	InGS->OnGuessLogChanged.AddUniqueDynamic(this, &ThisClass::HandleGuessLogChanged);
 }
-
 void UC4GuessedNumbers::UnbindAll()
 {
 	if (BoundGS.IsValid())
@@ -19,10 +18,10 @@ void UC4GuessedNumbers::UnbindAll()
 		BoundGS->OnGuessLogChanged.RemoveDynamic(this, &ThisClass::HandleGuessLogChanged);
 	}
 }
-
 void UC4GuessedNumbers::OnAllBound() { RefreshHistory(); }
 void UC4GuessedNumbers::HandleGuessLogChanged() { RefreshHistory(); }
 
+// when it restart, reset all
 void UC4GuessedNumbers::RefreshHistory()
 {
 	if (!BoundGS.IsValid() || !BoundPS.IsValid() || !EntryWidgetClass) return;
@@ -35,7 +34,6 @@ void UC4GuessedNumbers::RefreshHistory()
 		ScrollBox_History->ClearChildren();
 		RenderedCount = 0;
 	}
-
 	// Create only newly added entries
 	for (int32 i = RenderedCount; i < Log.Num(); ++i)
 	{

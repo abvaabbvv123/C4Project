@@ -119,7 +119,13 @@ struct Z_Construct_UFunction_UC4UserWidgetBase_HandleFlowPhase_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// GameFlow \xeb\x8d\xb8\xeb\xa6\xac\xea\xb2\x8c\xec\x9d\xb4\xed\x8a\xb8 \xec\x88\x98\xec\x8b\xa0\xec\x9a\xa9. \xec\x8b\x9c\xea\xb7\xb8\xeb\x8b\x88\xec\xb2\x98\xeb\x8a\x94 \xea\xb0\x81 \xeb\x8d\xb8\xeb\xa6\xac\xea\xb2\x8c\xec\x9d\xb4\xed\x8a\xb8\xec\x97\x90 \xeb\xa7\x9e\xec\xb6\xb0\xec\x95\xbc \xed\x95\xb4\xec\x84\x9c 4\xea\xb0\x9c\xeb\xa1\x9c \xeb\x82\x98\xeb\x89\x98\xec\xa7\x80\xeb\xa7\x8c, \xed\x95\x98\xeb\x8a\x94 \xec\x9d\xbc\xec\x9d\x80 \xeb\xaa\xa8\xeb\x91\x90 \xea\xb0\x99\xeb\x8b\xa4\n" },
+#endif
 		{ "ModuleRelativePath", "Public/UI/C4UserWidgetBase.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "GameFlow \xeb\x8d\xb8\xeb\xa6\xac\xea\xb2\x8c\xec\x9d\xb4\xed\x8a\xb8 \xec\x88\x98\xec\x8b\xa0\xec\x9a\xa9. \xec\x8b\x9c\xea\xb7\xb8\xeb\x8b\x88\xec\xb2\x98\xeb\x8a\x94 \xea\xb0\x81 \xeb\x8d\xb8\xeb\xa6\xac\xea\xb2\x8c\xec\x9d\xb4\xed\x8a\xb8\xec\x97\x90 \xeb\xa7\x9e\xec\xb6\xb0\xec\x95\xbc \xed\x95\xb4\xec\x84\x9c 4\xea\xb0\x9c\xeb\xa1\x9c \xeb\x82\x98\xeb\x89\x98\xec\xa7\x80\xeb\xa7\x8c, \xed\x95\x98\xeb\x8a\x94 \xec\x9d\xbc\xec\x9d\x80 \xeb\xaa\xa8\xeb\x91\x90 \xea\xb0\x99\xeb\x8b\xa4" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_NewPhase_Underlying;
@@ -218,9 +224,6 @@ struct Z_Construct_UClass_UC4UserWidgetBase_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
 		{ "IncludePath", "UI/C4UserWidgetBase.h" },
 		{ "ModuleRelativePath", "Public/UI/C4UserWidgetBase.h" },
 	};
@@ -229,7 +232,7 @@ struct Z_Construct_UClass_UC4UserWidgetBase_Statics
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UC4UserWidgetBase_HandleFlowLastChance, "HandleFlowLastChance" }, // 684755009
 		{ &Z_Construct_UFunction_UC4UserWidgetBase_HandleFlowOwnSecret, "HandleFlowOwnSecret" }, // 3657306203
-		{ &Z_Construct_UFunction_UC4UserWidgetBase_HandleFlowPhase, "HandleFlowPhase" }, // 2617223829
+		{ &Z_Construct_UFunction_UC4UserWidgetBase_HandleFlowPhase, "HandleFlowPhase" }, // 1860648617
 		{ &Z_Construct_UFunction_UC4UserWidgetBase_HandleFlowTurn, "HandleFlowTurn" }, // 1212061175
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -279,10 +282,10 @@ UC4UserWidgetBase::~UC4UserWidgetBase() {}
 struct Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UC4UserWidgetBase, UC4UserWidgetBase::StaticClass, TEXT("UC4UserWidgetBase"), &Z_Registration_Info_UClass_UC4UserWidgetBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UC4UserWidgetBase), 1459100473U) },
+		{ Z_Construct_UClass_UC4UserWidgetBase, UC4UserWidgetBase::StaticClass, TEXT("UC4UserWidgetBase"), &Z_Registration_Info_UClass_UC4UserWidgetBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UC4UserWidgetBase), 313197595U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_3596883734(TEXT("/Script/C4Project"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_2065595451(TEXT("/Script/C4Project"),
 	Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

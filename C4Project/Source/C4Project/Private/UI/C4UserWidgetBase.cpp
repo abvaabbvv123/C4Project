@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "UI/C4UserWidgetBase.h"
@@ -7,12 +7,13 @@
 #include "GameSystem/C4PlayerState.h"
 #include "TimerManager.h"
 
+
 void UC4UserWidgetBase::NativeConstruct()
 {
 	Super::NativeConstruct();
 	TryBind();
 }
-
+// after unbind PC&GS, destroy Widget -> stop timerhandle + unbind + reset weakobjectptr
 void UC4UserWidgetBase::NativeDestruct()
 {
 	if (UWorld* World = GetWorld()) World->GetTimerManager().ClearTimer(BindRetryHandle);
@@ -22,7 +23,7 @@ void UC4UserWidgetBase::NativeDestruct()
 	bAllBound = false;
 	Super::NativeDestruct();
 }
-
+// Late binding, Try until other all stuff bind
 void UC4UserWidgetBase::TryBind()
 {
 	UWorld* World = GetWorld();
@@ -37,7 +38,7 @@ void UC4UserWidgetBase::TryBind()
 		}
 	}
 	if (NeedsGS() && !BoundGS.IsValid())
-	{
+		{
 		if (AC4GameStateBase* GS = World->GetGameState<AC4GameStateBase>())
 		{
 			BoundGS = GS;
@@ -52,10 +53,12 @@ void UC4UserWidgetBase::TryBind()
 			BindPlayerState(PS);
 		}
 	}
+	//check is it all binded
 	const bool bReady = BoundPC.IsValid() && (!NeedsGS() || BoundGS.IsValid()) && (!NeedsPS() || BoundPS.IsValid());
 	FTimerManager& TimerManager = World->GetTimerManager();
 	if (bReady)
 	{
+		//after all binded -> clear timer
 		TimerManager.ClearTimer(BindRetryHandle);
 		if (WatchesGameFlow()) BindGameFlow();
 		bAllBound = true;
@@ -64,10 +67,12 @@ void UC4UserWidgetBase::TryBind()
 	}
 	else if (!TimerManager.IsTimerActive(BindRetryHandle))
 	{
+		//if something didnt bind -> try again
 		TimerManager.SetTimer(BindRetryHandle, this, &ThisClass::TryBind, BindRetryInterval, true);
 	}
 }
-
+// bing all events for game flow
+// (PC - my secret number  GS: turn)
 void UC4UserWidgetBase::BindGameFlow()
 {
 	BoundPC->OnOwnSecretChanged.AddUniqueDynamic(this, &ThisClass::HandleFlowOwnSecret);
@@ -75,7 +80,7 @@ void UC4UserWidgetBase::BindGameFlow()
 	BoundGS->OnTurnChanged.AddUniqueDynamic(this, &ThisClass::HandleFlowTurn);
 	BoundGS->OnLastChanceChanged.AddUniqueDynamic(this, &ThisClass::HandleFlowLastChance);
 }
-
+// unbind
 void UC4UserWidgetBase::UnbindGameFlow()
 {
 	if (BoundPC.IsValid()) BoundPC->OnOwnSecretChanged.RemoveDynamic(this, &ThisClass::HandleFlowOwnSecret);
@@ -86,12 +91,11 @@ void UC4UserWidgetBase::UnbindGameFlow()
 		BoundGS->OnLastChanceChanged.RemoveDynamic(this, &ThisClass::HandleFlowLastChance);
 	}
 }
-
 EC4GamePhase UC4UserWidgetBase::GetCurrentPhase() const
 {
 	return BoundGS.IsValid() ? BoundGS->GetGamePhase() : EC4GamePhase::WaitingPlayer;
 }
-
+// Server check who's turn -> dupe Gamestate to each client
 bool UC4UserWidgetBase::IsMyTurn() const
 {
 	return GetCurrentPhase() == EC4GamePhase::Playing

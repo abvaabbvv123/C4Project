@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 #include "UI/C4SecretInput.h"
 #include "Components/TextBlock.h"
@@ -20,10 +20,12 @@ void UC4SecretInput::OnAllBound()
 {
 	RefreshView(BoundPC->GetOwnSecretNumber());
 }
+// Server approve this
 void UC4SecretInput::HandleOwnSecretChanged(const FString& InSecret)
 {
 	RefreshView(InSecret);
 }
+// Show number logic 
 void UC4SecretInput::RefreshView(const FString& InSecret)
 {
 	TextBlock_MySecret->SetText(InSecret.IsEmpty() ? C4Type::GetEmptySecretText() : FText::FromString(InSecret));

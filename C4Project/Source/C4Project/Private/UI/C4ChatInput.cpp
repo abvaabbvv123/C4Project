@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "UI/C4ChatInput.h"
@@ -27,12 +27,10 @@ void UC4ChatInput::BindPlayerController(AC4PlayerController* InPC)
 {
 	InPC->OnChatMessageReceived.AddUniqueDynamic(this, &ThisClass::HandleChatMessageReceived);
 }
-
 void UC4ChatInput::UnbindAll()
 {
 	if (BoundPC.IsValid()) BoundPC->OnChatMessageReceived.RemoveDynamic(this, &ThisClass::HandleChatMessageReceived);
 }
-
 void UC4ChatInput::OnChatInputTextCommitted(const FText& Text, ETextCommit::Type CommitMethod)
 {
 	if (CommitMethod != ETextCommit::OnEnter || !BoundPC.IsValid()) return;
@@ -45,6 +43,7 @@ void UC4ChatInput::OnChatInputTextCommitted(const FText& Text, ETextCommit::Type
 		BoundPC->SubmitChatInput(Input);
 	}
 }
+
 void UC4ChatInput::HandleChatMessageReceived(const FString& InMessage)
 {
 	UTextBlock* Line = nullptr;

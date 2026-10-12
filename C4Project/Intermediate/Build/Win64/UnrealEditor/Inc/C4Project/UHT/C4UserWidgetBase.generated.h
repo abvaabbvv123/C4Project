@@ -16,14 +16,14 @@ enum class EC4GamePhase : uint8;
 #endif
 #define C4PROJECT_C4UserWidgetBase_generated_h
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execHandleFlowOwnSecret); \
 	DECLARE_FUNCTION(execHandleFlowLastChance); \
 	DECLARE_FUNCTION(execHandleFlowTurn); \
 	DECLARE_FUNCTION(execHandleFlowPhase);
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUC4UserWidgetBase(); \
 	friend struct Z_Construct_UClass_UC4UserWidgetBase_Statics; \
@@ -32,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(UC4UserWidgetBase)
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UC4UserWidgetBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -46,13 +46,13 @@ public: \
 	NO_API virtual ~UC4UserWidgetBase();
 
 
-#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_16_PROLOG
-#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_19_GENERATED_BODY \
+#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_14_PROLOG
+#define FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_19_INCLASS_NO_PURE_DECLS \
-	FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_19_ENHANCED_CONSTRUCTORS \
+	FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_17_INCLASS_NO_PURE_DECLS \
+	FID_C4Project_Source_C4Project_Public_UI_C4UserWidgetBase_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

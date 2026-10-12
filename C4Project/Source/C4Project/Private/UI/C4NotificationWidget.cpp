@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "UI/C4NotificationWidget.h"
@@ -19,14 +19,11 @@ void UC4NotificationWidget::OnAllBound()
 {
 	TextBlock_Notification->SetText(BoundPC->NotificationText);
 }
-
 void UC4NotificationWidget::OnGameFlowChanged()
 {
 	if (TextBlock_TurnStatus)
 	{
-		TextBlock_TurnStatus->SetText(GetCurrentPhase() == EC4GamePhase::Playing
-			? C4Type::GetTurnStatusText(IsMyTurn())
-			: FText::GetEmpty());
+		TextBlock_TurnStatus->SetText(GetCurrentPhase() == EC4GamePhase::Playing ? C4Type::GetTurnStatusText(IsMyTurn()) : FText::GetEmpty());
 	}
 	if (Widget_LastChance)
 	{
@@ -36,14 +33,4 @@ void UC4NotificationWidget::OnGameFlowChanged()
 void UC4NotificationWidget::HandleNotificationChanged(const FText& InText)
 {
 	TextBlock_Notification->SetText(InText);
-
-	if (Anim_Notify)
-	{
-		PlayAnimation(Anim_Notify);
-	}
-	if (NotificationSound)
-	{
-		UGameplayStatics::PlaySound2D(this, NotificationSound);
-	}
 }
-

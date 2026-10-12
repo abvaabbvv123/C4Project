@@ -281,10 +281,9 @@ void AC4GameModeBase::ResetPlayersForNewRound()
 	{
 		if (!IsValid(PC)) continue;
 		PC->SetOwnSecretNumber(FString());
-		if (AC4GameStateBase* C4GS = GetGameState<AC4GameStateBase>())
+		if (AC4PlayerState* C4PS = PC->GetPlayerState<AC4PlayerState>())
 		{
-			C4GS->SetLastChance(false);
-			C4GS->ClearGuessLog();
+			C4PS->SetSecretReady(false);
 		}
 	}
 }

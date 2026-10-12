@@ -10,7 +10,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -32,7 +32,7 @@
                         "text": "'FProperty::PassCPPArgsByRef': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -125,7 +125,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -147,7 +147,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -169,7 +169,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -191,7 +191,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -213,7 +213,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -235,7 +235,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -257,7 +257,7 @@
                         "text": "'FObjectProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -279,7 +279,7 @@
                         "text": "'FSoftObjectProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -301,7 +301,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -323,7 +323,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -345,7 +345,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -367,7 +367,7 @@
                         "text": "'TProperty<FScriptArray,FProperty>::PassCPPArgsByRef': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -389,7 +389,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -411,7 +411,7 @@
                         "text": "'TProperty<FScriptMap,FProperty>::PassCPPArgsByRef': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -433,7 +433,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -455,7 +455,7 @@
                         "text": "'TProperty<FScriptSet,FProperty>::PassCPPArgsByRef': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -477,7 +477,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -499,7 +499,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -521,7 +521,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -543,7 +543,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -565,7 +565,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -587,7 +587,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -609,7 +609,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -631,7 +631,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -653,7 +653,7 @@
                         "text": "'FProperty::GetCPPTypeForwardDeclaration': UnrealHeaderTool only API.  No replacement available. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -675,7 +675,7 @@
                         "text": "'FArchiveState::GetSerializeContext': GetSerializeContext is not supported. Use FUObjectThreadContext::Get().GetSerializeContext(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -697,7 +697,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -719,7 +719,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -741,7 +741,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -763,7 +763,7 @@
                         "text": "'UClass::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -785,7 +785,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -807,7 +807,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -829,7 +829,7 @@
                         "text": "'FTickableObjectBase::IsAllowedToTick': Use IsTickable for conditional ticks and SetTickableTickType to change the tick type after initial registration Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -851,7 +851,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -873,7 +873,7 @@
                         "text": "'UAnimationAsset::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -895,7 +895,7 @@
                         "text": "'FMaterial::ShouldInlineShaderCode': ShouldInlineShaderCode is no longer used when packaging shader maps. If you rely on this for some reason please reach out to the UE rendering team. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -917,7 +917,7 @@
                         "text": "'FMaterial::HasMaterialAttributesConnected': Should instead check individual properties Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -939,7 +939,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -961,7 +961,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -983,7 +983,7 @@
                         "text": "'UAnimSequenceBase::GetMarkerSyncPositionfromMarkerIndicies': Use other GetMarkerSyncPositionfromMarkerIndicies signature Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1005,7 +1005,7 @@
                         "text": "'ICompressedAnimData::SerializeCompressedData': SerializeCompressedData now accepts the DataOwner as an argument Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1027,7 +1027,7 @@
                         "text": "'UAnimSequenceBase::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1049,7 +1049,7 @@
                         "text": "'UAnimSequenceBase::EvaluateCurveData': Please use EvaluateCurveData that takes a FName. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1071,7 +1071,7 @@
                         "text": "'UAnimSequenceBase::HasCurveData': Please use HasCurveData that takes a FName. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1093,7 +1093,7 @@
                         "text": "'UAnimSequenceBase::GetMarkerSyncPositionfromMarkerIndicies': Use other GetMarkerSyncPositionfromMarkerIndicies signature Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1115,7 +1115,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1137,7 +1137,7 @@
                         "text": "'USkinnedMeshComponent::UpdateSlaveComponent': This method has been deprecated. Please use UpdateFollowerComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1159,7 +1159,7 @@
                         "text": "'USkinnedMeshComponent::SetSkeletalMesh': Use USkeletalMeshComponent::SetSkeletalMesh() or SetSkinnedAssetAndUpdate() instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1181,7 +1181,7 @@
                         "text": "'FGraphActionListBuilderBase::AddAction': Overriding the schema action category is no longer supported, set the category via CosmeticUpdateRootCategory or CosmeticUpdateCategory Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1203,7 +1203,7 @@
                         "text": "'FGraphActionListBuilderBase::AddActionList': Collections of Action lists were ambiguous and unused - make a compound FEdGraphSchemaAction and Add it Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1225,7 +1225,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1247,7 +1247,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1269,7 +1269,7 @@
                         "text": "'FViewportClient::InputAxis': Use the new InputAxis function that takes a FInputDeviceId. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1291,7 +1291,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1313,7 +1313,7 @@
                         "text": "'USkinnedAsset::GetLODInfoArray': Use GetLODInfo and GetLODNum instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1335,7 +1335,7 @@
                         "text": "'USkinnedAsset::GetLODInfoArray': Use GetLODInfo and GetLODNum instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1357,7 +1357,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1379,7 +1379,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1401,7 +1401,7 @@
                         "text": "'UTexture::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1423,7 +1423,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1445,7 +1445,7 @@
                         "text": "'UMaterialInterface::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1467,7 +1467,7 @@
                         "text": "'UMaterialExpression::GetInputsView': Use FExpressionInputIterator instead or GetInput() directly. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1489,7 +1489,7 @@
                         "text": "'UObject::GetAssetRegistryTags': Implement the version that takes FAssetRegistryTagsContext instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1511,7 +1511,7 @@
                         "text": "'FViewportClient::InputKey': Use the new InputKey(const FInputKeyEventArgs& EventArgs) function. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1533,7 +1533,7 @@
                         "text": "'FViewportClient::InputAxis': Use the new InputAxis function that takes a FInputDeviceId. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {
@@ -1555,7 +1555,7 @@
                         "text": "'IAssetEditorInstance::CloseWindow': Use CloseWindow that takes in an EAssetEditorCloseReason instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/Dev/Unreal/Chapter4/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
+                        "uri": "file:///D:/Dev/Unreal/C4Project/C4Project/Intermediate/Build/Win64/x64/C4ProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.cpp"
                     },
                     "locations": [
                         {

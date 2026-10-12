@@ -1,17 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4playerstate.gen.cpp",
+        "Source": "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4playerstate.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\x64\\c4projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\x64\\c4projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\definitions.c4project.h",
-            "d:\\dev\\unreal\\chapter4\\c4project\\source\\c4project\\public\\gamesystem\\c4playerstate.h",
+            "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\c4project\\definitions.c4project.h",
+            "d:\\dev\\unreal\\c4project\\c4project\\source\\c4project\\public\\gamesystem\\c4playerstate.h",
             "e:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "e:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
-            "d:\\dev\\unreal\\chapter4\\c4project\\source\\c4project\\public\\c4type.h",
-            "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4type.generated.h",
-            "d:\\dev\\unreal\\chapter4\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4playerstate.generated.h"
+            "d:\\dev\\unreal\\c4project\\c4project\\source\\c4project\\public\\c4type.h",
+            "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4type.generated.h",
+            "d:\\dev\\unreal\\c4project\\c4project\\intermediate\\build\\win64\\unrealeditor\\inc\\c4project\\uht\\c4playerstate.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

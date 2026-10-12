@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -10,14 +10,14 @@
 
 class UEditableTextBox;
 class UScrollBox;
-/**
- * 
- */
+
+
 UCLASS()
 class C4PROJECT_API UC4ChatInput : public UC4UserWidgetBase
 {
 	GENERATED_BODY()
 protected:
+
 	virtual void NativeConstruct() override;
 	virtual void NativeDestruct() override;
 	virtual void NativePreConstruct() override;
@@ -25,18 +25,19 @@ protected:
 	virtual void BindPlayerController(AC4PlayerController* InPC) override;
 	virtual void UnbindAll() override;
 
+	// when enter -> send to server
 	UFUNCTION() void OnChatInputTextCommitted(const FText& Text, ETextCommit::Type CommitMethod);
+	// for chatting
 	UFUNCTION() void HandleChatMessageReceived(const FString& InMessage);
 
 	UPROPERTY(meta = (BindWidget))
 	TObjectPtr<UEditableTextBox> EditableTextBox_ChatInput;
-
 	UPROPERTY(meta = (BindWidget))
 	TObjectPtr<UScrollBox> ScrollBox_ChatLog;
-
+	// max chat log
 	UPROPERTY(EditDefaultsOnly, Category = "Chat")
-	int32 MaxChatLines = 50;                      
-
+	int32 MaxChatLines = 50;
+	// font
 	UPROPERTY(EditDefaultsOnly, Category = "Chat")
 	FSlateFontInfo ChatFont = FCoreStyle::GetDefaultFontStyle("Regular", 14);
 };
